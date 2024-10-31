@@ -1,3 +1,7 @@
+packageurl <- "https://cran.r-project.org/src/contrib/Archive/MicrobiomeStat/MicrobiomeStat_1.1.tar.gz"
+install.packages(packageurl, repos=NULL, type="source")
+library(MicrobiomeStat)
+
 library(phyloseq)
 library(MicrobiomeStat)
 library(tibble)
